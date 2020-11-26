@@ -383,8 +383,7 @@ public class App {
 
 
     public static void main(String[] args) throws FileNotFoundException {
-        String
-                text = "";
+        String text = "";
         File file = new File(args[0]);
         Scanner scanner = new Scanner(file);
         while (scanner.hasNext()) {
